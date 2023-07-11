@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    
+    font-family: Lato;
+}
+
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background: linear-gradient(45deg, rgb(181, 122, 221), rgb(112, 184, 112), rgb(168, 168, 95));
+    padding: 30px 90px 0 90px;
+    max-height: 450px;
+}
+.banner-image{
+    max-height: 450px;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+.banner-header{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+.banner-btn{
+    border-radius: 8px;
+    background: #5e6be2;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+    font-weight:700;
+}
