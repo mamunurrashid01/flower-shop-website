@@ -1,42 +1,123 @@
-body{
+/* universal style start */
+body {
     margin: 0;
     padding: 0;
 }
-*{
-    
+
+* {
     font-family: Lato;
 }
 
-.banner-section{
+/* universal style end */
+
+/* banner part style start */
+.banner-section {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     background: linear-gradient(45deg, rgb(181, 122, 221), rgb(112, 184, 112), rgb(168, 168, 95));
     padding: 30px 90px 0 90px;
     max-height: 450px;
 }
-.banner-image{
+
+.banner-image {
     max-height: 450px;
     margin-bottom: 0;
     margin-top: 3px;
 }
-.banner-header{
+
+.banner-header {
     color: #ffffff;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 0;
 }
-.banner-description{
+
+.banner-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 12px;
     font-weight: 400;
-    
+
 }
-.banner-btn{
+
+.banner-btn {
     border-radius: 8px;
     background: #5e6be2;
     border: none;
     padding: 10px 15px;
     color: #fff;
-    font-weight:700;
+    font-weight: 700;
 }
+
+/* banner part style end */
+
+/* feature section style start*/
+.feature-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+}
+
+.feature-header {
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.left-image {
+    background-color: #F2DEE7;
+    padding: 22px 22px 0 22px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.middle-image {
+    background-color: #DAEFF1;
+    padding: 22px 22px 0 22px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.right-image {
+    background-color: #E3ECDB;
+    padding: 22px 22px 0 22px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.pink-flower,
+.red-flower,
+.yellow-flower {
+    height: 200px;
+    width: 200px;
+}
+
+.tree-description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-description {
+    color: #272727;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+
+/* feature section style end*/
