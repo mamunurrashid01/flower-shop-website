@@ -208,6 +208,9 @@ span{
     line-height: 20px;
 }
 /*   library section style end    */
+
+/*   deal section style start    */
+
 .deal{
     padding: 30px 100px; 
     margin-top: 30px;
@@ -264,3 +267,29 @@ input[type="email"]{
     font-weight: 700;
     line-height: normal;
 }
+/*   deal section style end    */
+
+/*   footer section style start    */
+.about-shop{
+    text-align: center;
+    background: #111010;
+    padding: 35px 0;
+}
+.footer-header{
+    font-size: 25px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+small{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+}
+/*   footer section style end    */
