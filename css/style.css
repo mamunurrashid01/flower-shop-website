@@ -122,7 +122,7 @@ body {
 }
 
 /* feature section style end*/
-
+/*   service section style start    */
 .service-section{
     display: flex;
     justify-content: space-around;
@@ -131,6 +131,7 @@ body {
     padding: 40px 0;
     max-width: 85%;
     margin: auto;
+    margin-bottom: 70px
 }
 .delivery, .fresh-flower, .support{
     text-align: center;
@@ -142,3 +143,40 @@ body {
     line-height: 35px;
     margin-top: 0;
 }
+/*   service section style end    */
+
+/*   offer section style start    */
+.offer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 80px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.title{
+    text-align: center;
+}
+.offer-header{
+    color: #272727;
+    font-size: 20px;
+    font-weight: 800;
+}
+span{
+    color: red;
+}
+.offer-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.offer-button{
+    border: none;
+    padding: 8px 18px;
+    border-radius: 4px;
+    background: #E55473;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 700;
+}
+/*   offer section style end    */
