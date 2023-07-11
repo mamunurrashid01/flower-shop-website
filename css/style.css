@@ -35,8 +35,8 @@ body {
 
 .banner-description {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
 
 }
 
@@ -46,6 +46,7 @@ body {
     border: none;
     padding: 10px 15px;
     color: #fff;
+    font-size: 12px;
     font-weight: 700;
 }
 
@@ -62,7 +63,7 @@ body {
 .feature-header {
     color: #272727;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 800;
     margin-bottom: 0;
     margin-top: 60px;
@@ -71,8 +72,8 @@ body {
 .feature-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
     line-height: 20px;
     margin-bottom: 30px;
 }
@@ -123,7 +124,7 @@ body {
 
 /* feature section style end*/
 /*   service section style start    */
-.service-section{
+.service-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -133,44 +134,54 @@ body {
     margin: auto;
     margin-bottom: 70px
 }
-.delivery, .fresh-flower, .support{
+
+.delivery,
+.fresh-flower,
+.support {
     text-align: center;
 }
-.service-description{
+
+.service-description {
     color: rgba(39, 39, 39, 0.80);
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
     line-height: 35px;
     margin-top: 0;
 }
+
 /*   service section style end    */
 
 /*   offer section style start    */
-.offer-section{
+.offer-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 30px 80px;
     background: rgba(229, 84, 115, 0.05);
 }
-.title{
+
+.title {
     text-align: center;
 }
-.offer-header{
+
+.offer-header {
     color: #272727;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 800;
 }
-span{
+
+span {
     color: red;
 }
-.offer-description{
+
+.offer-description {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
     line-height: 20px;
 }
-.offer-button{
+
+.offer-button {
     border: none;
     padding: 8px 18px;
     border-radius: 4px;
@@ -179,43 +190,49 @@ span{
     color: #FFF;
     font-weight: 700;
 }
+
 /*   offer section style end    */
 
 /*   library section style start    */
-.image-library{
+.image-library {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px 55px;
     text-align: center;
 }
-.flower-image{
+
+.flower-image {
     max-height: 250px;
     box-shadow: 2px 2px 6px gray;
 }
-.social-header{
+
+.social-header {
     color: #272727;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 800;
     margin-top: 40px;
 }
-.social-description{
+
+.social-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
     line-height: 20px;
 }
+
 /*   library section style end    */
 
 /*   deal section style start    */
 
-.deal{
-    padding: 30px 100px; 
+.deal {
+    padding: 30px 100px;
     margin-top: 30px;
 }
-.deal-section{
+
+.deal-section {
     background-image: url("../flowerasset/rectangle 9.png");
     height: 350px;
     background-position: center;
@@ -223,7 +240,8 @@ span{
     background-size: cover;
     position: relative;
 }
-.deal-header{
+
+.deal-header {
     position: absolute;
     top: 20%;
     left: 40%;
@@ -232,16 +250,18 @@ span{
     font-weight: 800;
     line-height: normal;
 }
-.deal-description{
+
+.deal-description {
     position: absolute;
     top: 31%;
-    left: 43%;
+    left: 42%;
     color: rgba(39, 39, 39, 0.60);
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
     line-height: 30px;
 }
-input[type="email"]{
+
+input[type="email"] {
     position: absolute;
     top: 60%;
     left: 20%;
@@ -254,7 +274,8 @@ input[type="email"]{
     font-size: 12px;
     font-weight: 400;
 }
-.deal-btn{
+
+.deal-btn {
     position: absolute;
     top: 60%;
     left: 62%;
@@ -267,29 +288,126 @@ input[type="email"]{
     font-weight: 700;
     line-height: normal;
 }
+
 /*   deal section style end    */
 
+/*   feedback section style start    */
+
+.customer-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 60px;
+    gap: 30px;
+    background-image: conic-gradient(rgb(187, 8, 8), rgb(182, 182, 12), rgb(16, 122, 16));
+}
+
+.customer-feedback {
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 5px;
+    height: 333px;
+    background-color: #928CD7;
+}
+
+.feedback-header {
+    background-color: #5452FD;
+    padding: 10px 5px 10px 4px;
+    margin-top: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+
+.feedback-type {
+    color: #928CD7;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+#checkbox {
+    padding: 5px;
+
+}
+
+.describe-feed {
+    color: #5452FD;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+label {
+    color: #5452FD;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+input[type="text"] {
+    margin: 5px 0 5px 8px;
+}
+
+input[type="eemail"] {
+    margin-left: 5px;
+}
+
+.btn-submit {
+    padding: 10px 5px;
+    text-align: center;
+    margin: 8px 0 0 1px;
+    background-color: #5452FD;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.up-coming {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.up-describe {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*   feedback section style end    */
+
 /*   footer section style start    */
-.about-shop{
+.about-shop {
     text-align: center;
     background: #111010;
     padding: 35px 0;
 }
-.footer-header{
+
+.footer-header {
     font-size: 25px;
     font-weight: 800;
     color: #FFFFFF;
     margin-bottom: 0;
 }
-.footer-description{
+
+.footer-description {
     color: rgba(255, 255, 255, 0.90);
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 20px;
 }
-small{
+
+small {
     color: rgba(255, 255, 255, 0.40);
     font-size: 12px;
     font-weight: 400;
 }
+
 /*   footer section style end    */
