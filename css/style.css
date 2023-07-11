@@ -118,6 +118,27 @@ body {
     font-weight: 700;
     line-height: 20px;
     text-decoration-line: underline;
+    margin-bottom: 60px;
 }
 
 /* feature section style end*/
+
+.service-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F4F4F4;
+    padding: 40px 0;
+    max-width: 85%;
+    margin: auto;
+}
+.delivery, .fresh-flower, .support{
+    text-align: center;
+}
+.service-description{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-top: 0;
+}
